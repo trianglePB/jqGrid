@@ -545,7 +545,6 @@
 		inlineNav: function (elem, oMuligrid) {
 			if (typeof elem === "object") {
 				// the option pager are skipped
-				oMuligrid = elem;
 				elem = undefined;
 			}
 			return this.each(function () {
